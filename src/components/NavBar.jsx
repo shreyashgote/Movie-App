@@ -5,13 +5,13 @@ function NavBar() {
   return (
     <nav className="navbar">
       <div className="navbar-brand">
-        <Link to="/">MovieApp</Link>
+        <Link to="/Movie-App/">MovieApp</Link>
       </div>
       <div className="navbar-links">
-        <Link to="/" className="nav-link">
+        <Link to="/Movie-App/" className="nav-link">
           Home
         </Link>
-        <Link to="/favorites" className="nav-link">
+        <Link to="/Movie-App/favorites" className="nav-link">
           Favorites
         </Link>
       </div>
